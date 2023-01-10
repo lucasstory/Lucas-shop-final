@@ -22,9 +22,9 @@ const Navbar = () => {
               })}
             </Link> 
         <div className='navbar-links'>
-          <a href="/" className='navbar-links-item'>Nyheter</a>
-          <a href="/all_products" className='navbar-links-item'>Se alla produkter</a>
-          <a href="/about" className='navbar-links-item'>Om oss</a>
+          <Link href="/" className='navbar-links-item'>Nyheter</Link>
+          <Link href="/all_products" className='navbar-links-item'>Se alla produkter</Link>
+          <Link href="/about" className='navbar-links-item'>Om oss</Link>
         </div>
         <button type='button' className='cart-icon' onClick={() => setShowCart(true)}>
             <AiOutlineShoppingCart />
